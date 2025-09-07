@@ -21,7 +21,7 @@ testsite.org
 
 ## Run the scanner:
 
-""python3 scanner.py -l domains.txt -o results.txt -t 10""
+python3 scanner.py -l domains.txt -o results.txt -t 10
 
 
 -l → File containing domains
