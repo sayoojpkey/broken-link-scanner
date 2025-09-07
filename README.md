@@ -22,20 +22,20 @@ A Python tool to find **broken social media links** on websites that could lead 
    pip install -r requirements.txt
 
 
-🛠️ Usage
+3. 🛠️ Usage
 
-Prepare a file domains.txt with one domain per line:
+   Prepare a file domains.txt with one domain per line:
 
-example.com
-testsite.org
-blaa.com
+   example.com
+   testsite.org
+   blaa.com
 
-Run the scanner:
+4. Run the scanner:
 
-python3 scanner.py -l domains.txt -o results.txt -t 10
+   python3 scanner.py -l domains.txt -o results.txt -t 10
 
--l → File containing list of domains
+   -l → File containing list of domains
 
--o → Output file (default: output.txt)
+   -o → Output file (default: output.txt)
 
--t → Number of threads (default: 5)
+   -t → Number of threads (default: 5)
