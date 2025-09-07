@@ -13,7 +13,25 @@ A Python tool to find **broken social media links** on websites that could lead 
 
 ## 📦 Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/broken-link-scanner.git
-   cd broken-link-scanner
+Prepare a domain list (e.g., domains.txt):
+
+example.com
+testsite.org
+
+
+## Run the scanner:
+
+python3 scanner.py -l domains.txt -o results.txt -t 10
+
+
+-l → File containing domains
+
+-o → Output file (default: output.txt)
+
+-t → Number of threads (default: 5)
+
+## Check the results
+
+Vulnerable links → saved in results.txt
+
+Logs → stored in scan.log
