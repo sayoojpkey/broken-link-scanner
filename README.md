@@ -11,7 +11,9 @@ A Python tool to find **broken social media links** on websites that could lead 
 
 ---
 
-## 📦 Installation
+## 📦 Installatione 
+
+git clon https://github.com/sayoojpkey/broken-link-scanner 
 
 Prepare a domain list (e.g., domains.txt):
 
