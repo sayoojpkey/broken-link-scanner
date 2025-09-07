@@ -11,6 +11,14 @@ A Python tool to find **broken social media links** on websites that could lead 
 
 ---
 
+## ⚠️ Important Note
+
+- In **India**, TikTok is banned.  
+- Because of this, **all TikTok links may appear as broken / vulnerable** when scanned.  
+- Please **verify TikTok results manually** before reporting them as vulnerable.
+    
+---
+
 📦 Installation
 
 1. Clone the repository:
